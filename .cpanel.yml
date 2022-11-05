@@ -2,4 +2,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/tetworld/store.tetworld.com
-    - /bin/cp * $DEPLOYPATH
+    - /bin/cp -R images $DEPLOYPATH
