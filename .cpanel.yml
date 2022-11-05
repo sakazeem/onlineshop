@@ -1,0 +1,6 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/tetworld/store.tetworld.com
+    - /bin/cp index.html $DEPLOYPATH
+    
